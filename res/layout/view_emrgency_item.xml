@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ItemEmergency">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="@string/name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="210dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="@string/address"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="@string/latitude"
+        android:textSize="18sp"
+        android:layout_marginTop="110dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="@string/longitude"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="@string/details1"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/EmergencyNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/textView14"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text=""
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/AddressEmergencyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/blue"
+        android:layout_toEndOf="@+id/textView15"/>
+
+    <TextView
+        android:id="@+id/EmergencyLatitudeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text=""
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_toEndOf="@+id/textView16"/>
+
+    <TextView
+        android:id="@+id/EmrgencyLongitudeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text=""
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_toEndOf="@+id/textView17"/>
+
+    <TextView
+        android:id="@+id/EmergencyDetailsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text=""
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_toEndOf="@+id/textView18"/>
+
+    <Button
+        android:id="@+id/SendAnAmbulanceButton"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="490dp"
+        android:backgroundTint="@color/green_rgb"
+        android:text="@string/sendAnAmbulance" />
+
+    <ImageView
+        android:id="@+id/EmergencyImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/CallButton"
+        android:layout_width="130dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="490dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/call" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"
+        app:srcCompat="@drawable/line_1" />
+
+</RelativeLayout>
