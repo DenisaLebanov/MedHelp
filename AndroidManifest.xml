@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.medhelp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MedHelp">
+        <activity
+            android:name=".CheckReschedulesAppointmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditAppointmentTimeSlotChoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAppointmentsPatientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckDeletedAppointmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewEmergencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyDoctorsMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAppointmentActivity_2"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPatientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAppointmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectDateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointmentTimeSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PricesListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalDataDoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalDataPatientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseYourAccountTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityPatients"
+            android:exported="false" />
+        <activity
+            android:name=".LogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
